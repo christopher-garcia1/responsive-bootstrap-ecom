@@ -19,27 +19,35 @@
             background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
             padding: 120px;
             min-height: 100vh;
-        } 
+        }
 
-        .feature-icon{ 
-            width: 64px; 
-            height: 64px; 
-            background: #6366f1; 
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background: #6366f1;
             color: white;
-            border-radius: 12px; 
-            align-items: center; 
+            border-radius: 12px;
+            align-items: center;
             display: flex;
-            justify-content: center; 
-            font-size:30px; 
+            justify-content: center;
+            font-size: 30px;
             margin-bottom: 1rem;
-        } 
-        .card{
-            border: none; 
-            transition: transform 0.3s ease;
-        } 
+        }
 
-        .card:hover{
+        .card {
+            border: none;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
             transform: translateY(-5px);
+        }
+
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -94,7 +102,7 @@
                 <h2 class="fw-bold">Amazing Features</h2>
                 <p class="text-muted">Discover what makes us different</p>
             </div>
-            <div class="row g-4"> 
+            <div class="row g-4">
                 <!-- Feature 1 -->
                 <div class="col-md-4">
                     <div class="card h-100 p-4">
@@ -128,67 +136,123 @@
             </div>
         </div>
     </section>
-    <!-- Feature ends --> 
-     <!-- Section start -->
-     <section id="pricing" class="bg-light py-5"> 
+    <!-- Feature ends -->
+    <!-- Section start -->
+    <section id="pricing" class="bg-light py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
                 <h2>Simple pricing</h2>
                 <p class="text-muted">Choose the plan that works for you</p>
-            </div> 
+            </div>
             <div class="row g-4">
-                <!-- Basic plan --> 
-                 <div class="col-lg-4"> 
+                <!-- Basic plan -->
+                <div class="col-lg-4">
                     <div class="card pricing-card h-100 p-4">
                         <div class="card-body">
                             <h5 class="text-muted">Basics</h5>
-                            <h2 class="display-4 fw-bold mb-4">$9 <small class="fs-6">/month</small></h2> 
-                            <ul class="list-unstyled mb-4"> 
+                            <h2 class="display-4 fw-bold mb-4">$9 <small class="fs-6">/month</small></h2>
+                            <ul class="list-unstyled mb-4">
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>Basic Features</li>
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>1 User</li>
-                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>5 Gigs Storage </li> 
+                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>5 Gigs Storage </li>
                                 <a href="#" class="btn btn-outline-primary w-100">Get Started</a>
                             </ul>
-                        </div>  
+                        </div>
                     </div>
-                </div>  
+                </div>
                 <!-- Pro plan -->
-                <div class="col-lg-4"> 
+                <div class="col-lg-4">
                     <div class="card pricing-card h-100 p-4">
-                        <div class="card-body"> 
+                        <div class="card-body">
                             <span class="badge bg-primary mb-2">Popular</span>
                             <h5 class="text-muted">Pro</h5>
-                            <h2 class="display-4 fw-bold mb-4">$29 <small class="fs-6">/month</small></h2> 
-                            <ul class="list-unstyled mb-4"> 
+                            <h2 class="display-4 fw-bold mb-4">$29 <small class="fs-6">/month</small></h2>
+                            <ul class="list-unstyled mb-4">
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>All Basic
                                     Features</li>
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>5 Users</li>
-                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>50 Gig Storage</li> 
+                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>50 Gig Storage</li>
                                 <a href="#" class="btn btn-primary w-100">Get Started</a>
                             </ul>
-                        </div>  
+                        </div>
                     </div>
-                </div>    
+                </div>
                 <!-- Third -->
-                <div class="col-lg-4"> 
+                <div class="col-lg-4">
                     <div class="card pricing-card h-100 p-4">
                         <div class="card-body">
                             <h5 class="text-muted">Enterprise</h5>
-                            <h2 class="display-4 fw-bold mb-4">$99 <small class="fs-6">/month</small></h2> 
-                            <ul class="list-unstyled mb-4"> 
+                            <h2 class="display-4 fw-bold mb-4">$99 <small class="fs-6">/month</small></h2>
+                            <ul class="list-unstyled mb-4">
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>All Pro Features</li>
                                 <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>Unlimited Users</li>
-                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>1TB Storage</li> 
+                                <li class="mb-3"><i class="bi bi-check text-primary me-2"></i>1TB Storage</li>
                                 <a href="" class="btn btn-outline-primary w-100">Contact Us</a>
                             </ul>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-     </section>
-     <!-- Section ends -->
+    </section>
+    <!-- Section ends -->
+    <!-- Testimonials start -->
+    <section id="testimonial" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">What Our Clients Say</h2>
+                <p class="text-muted">Trusted by thousands of companies</p>
+            </div>
+            <div class="row g-4">
+                <!-- Testimonial -->
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2024/02/02/04/20/ai-generated-8547221_640.png"
+                                alt="testimonial-image" class="testimonial-img">
+                            <div class="ms-2">
+                                <h5 class="mb-0">John Doe</h5>
+                                <small class="text-muted">Ceo, Company</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">"Amazing product! It has transformed how we do business."</p>
+                    </div>
+                </div>  
+                <!-- Testimonial 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2022/12/24/21/14/portrait-7676482_640.jpg"
+                                alt="testimonial-image" class="testimonial-img">
+                            <div class="ms-2">
+                                <h5 class="mb-0">Mike Johnson</h5>
+                                <small class="text-muted">CTO, StartUp</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">"The best solution we've found for our business needs."</p>
+                    </div>
+                </div>  
+                <!-- Testimonial 3 -->
+                 <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2016/12/21/00/36/woman-1921883_640.jpg"
+                                alt="testimonial-image" class="testimonial-img">
+                            <div class="ms-2">
+                                <h5 class="mb-0">Jane Smith</h5>
+                                <small class="text-muted">Ceo, Company</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">"Incredible support and powerful features. Highly recommended!"</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Testimonials end -->
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
